@@ -370,7 +370,7 @@ Screenshot:
 
 Pre OS software:
 
-Gives the user which preloaded OS they wish to run before any OS is ran.
+Gives the user the option of which preloaded OS they wish to run before any OS is ran.
 <img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/CSIOS/PreOSOSX.png">
 
 Kernel file:
