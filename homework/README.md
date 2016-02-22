@@ -919,3 +919,25 @@ Network Settings:
 
 <img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/CSIOS/NextworkSettingsOSX.png">
 
+#### Windows OS:
+
+Pre-OS:
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/3/bios-1.jpg">
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/3/bios-2.jpg">
+
+Kernel:
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/3/Kernel.png">
+
+First Process:
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/3/FirstProcess.png">
+
+StartUp Programs:
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/3/StartUpProgs.png">
+
+Network Settings:
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/3/NetSettings.png">
+
+
+
+
+
