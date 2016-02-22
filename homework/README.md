@@ -83,15 +83,19 @@ root             7878   0.0  0.0  2438348   1004 s001  R+    7:15PM   0:00.01 ps
 root             7863   0.0  0.1  2496808   4456   ??  Ss    7:14PM   0:00.12 /usr/sbin/ocspd
 root             7759   0.0  0.1  2471492   5308   ??  Ss    6:53PM   0:00.02 /System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper
 root             7758   0.0  0.1  2500348   4668   ??  Ss    6:53PM   0:00.25 /usr/sbin/systemsoundserverdTrixie           2478   3.9 12.8  5435488 537936   ??  U    Thu06PM 128:08.34 /Applications/Firefox.app/Contents/MacOS/firefox
-
-
 ```
+
+Screenshot:
+
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/1/local-root-processes.png">
+
 
 #### 2)
 ```
 Command: ps aux | grep Trixie
 
 Output:
+
 Trixie            531   2.0  1.2  2880792  50004   ??  S    Thu03AM  18:44.70 /Applications/Google Chrome.app/Contents/Versions/48.0.2564.109/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=ppapi --channel=274.6.1052044262 --ppapi-flash-args --lang=en-US
 Trixie            510   1.3  0.8  3579304  34140   ??  S    Thu03AM   9:25.28 /Applications/Google Chrome.app/Contents/Versions/48.0.2564.109/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=renderer --lang=en-US --force-fieldtrials=AffiliationBasedMatching/EnabledThroughFieldTrial/AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled/*AutomaticTabDiscarding/Enabled_Once_5/CaptivePortalInterstitial/Enabled/ChildAccountDetection/Disabled/*ChromeSuggestions/Default/*ClientSideDetectionModel/Model0/CrossDevicePromo/14DaySingleProfile/*ExtensionActionRedesign/Default/*ExtensionDeveloperModeWarning/Default/*ExtensionInstallVerification/Enforce/*GFE/Default/InstanceID/Enabled/*IntelligentSessionRestore/Enabled2/MacMemoryMechanism/Posix/*OmniboxBundledExperimentV1/Postperiod_AnswersInSuggest_A2/PasswordBranding/Disabled/*PasswordGeneration/Disabled/*PasswordManagerSettingsMigration/Disable/*QUIC/EnabledNoId/ReportCertificateErrors/ShowAndPossiblySend/*ResourcePriorities/Disabled/SHA1IdentityUIWarning/Enabled/SHA1ToolbarUIJanuary2016/Warning/SHA1ToolbarUIJanuary2017/Error/*SafeBrowsingIncidentReportingService/Default/SafeBrowsingUnverifiedDownloads/DisableByParameterMostSbTypes2/SafeBrowsingUpdateFrequency/Default/SlimmingPaint/EnableSlimmingPaint/*SpdyEnableDependencies/Enable/*UMA-Dynamic-Uniformity-Trial/Group3/*UMA-Population-Restrict/normal/*UMA-Uniformity-Trial-100-Percent/group_01/*UMA-Uniformity-Trial-20-Percent/default/*UMA-Uniformity-Trial-50-Percent/default/*UseDelayAgnosticAEC/DefaultEnabled/VarationsServiceControl/Interval_30min/WebRTC-LocalIPPermissionCheck/Default/WebRTC-PeerConnectionDTLS1.2/Enabled/ --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=2 --enable-zero-copy --content-image-texture-target=3553,3553,3553,3553,3553,34037,3553,3553,3553,3553,34037,3553,34037,34037 --video-image-texture-target=34037 --channel=274.2.964327342
 Trixie            274   1.2  2.7  3392396 112612   ??  S    Thu03AM  34:41.12 /Applications/Google Chrome.app/Contents/MacOS/Google Chrome -psn_0_28679
@@ -238,11 +242,20 @@ Trixie           7862   0.0  0.4  3018028  15236   ??  S     7:14PM   0:00.22 /S
 Trixie           7763   0.0  0.3  3550224  13704   ??  S     6:53PM   0:00.14 /System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/reversetemplated
 ```
 
+Screenshot:
+
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/1/local-user-processes.png">
+
 #### 3) 
 ```
-kernel_task is using the most real memory: 496 MB
-Firefox is using the most virtual memory: 951 MB
+kernel_task is using the most real memory: 487 MB
+Firefox is using the most virtual memory: 975 MB
 ```
+
+Screenshot:
+
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/1/activity-monitor.png">
+
 #### 4)
 ```
 Command: ps aux | sort 
@@ -261,21 +274,41 @@ syslog
 www-data 
 ```
 
+Screenshots:
+
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/1/ssh-root-processes-1.png">
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/1/ssh-root-processes-2.png">
+
 
 ### I/O Gymnastics:
 
 #### 1)
+```
+Command: ssh -L 55555:my.cs.lmu.edu:22 troque@my.cs.lmu.edu
+```
+
+Screenshots:
+
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/2/ssh-tunneling.png">
 
 
 #### 2)
+```
 
+```
 
 #### 3)
+```
 
+```
 
 #### 4)
+```
 
-
+```
 
 #### 5)
+```
+
+```
 
