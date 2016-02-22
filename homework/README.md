@@ -926,16 +926,16 @@ Pre-OS:
 <img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/3/bios-2.jpg">
 
 Kernel:
-<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/3/Kernel.png">
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/3/Kernel.PNG">
 
 First Process:
-<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/3/FirstProcess.png">
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/3/FirstProcess.PNG">
 
-StartUp Programs:
-<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/3/StartUpProgs.png">
+StartUp Programs: <br>
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/3/StartupProgs.PNG">
 
 Network Settings:
-<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/3/NetSettings.png">
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/3/NetSettings.PNG">
 
 
 
