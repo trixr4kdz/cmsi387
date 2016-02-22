@@ -291,24 +291,77 @@ Screenshots:
 
 <img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/2/ssh-tunneling.png">
 
+Localhost:
+
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/2/ssh-tunneling-localhost.png">
+
 
 #### 2)
 ```
-
+Command: screen ping google.com
 ```
+
+Screenshots:
+
+Screen Ping BEFORE:
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/2/screen-ping-before.png">
+
+Screen Ping DURING:
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/2/screen-ping.png">
+
+Screen Ping AFTER: <br>
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/2/screen-ping-after.png">
+
+
 
 #### 3)
-```
+~/Pictures is the directory that uses the most disk space: 8.9 GB
 
 ```
+Command: du -sh ~/*
+```
+
+Screenshots:
+
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/2/du-sh-regex.png">
 
 #### 4)
-```
+Using one of the Mac computers in the Keck Lab:
+
+Screenshots:
 
 ```
+Command: vi whateva.txt
+```
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/2/txt-file.png">
+```
+Command: ls -i
+```
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/2/ls-root-1.png">
+```
+Command: mv whateva.txt Desktop && ls -i
+```
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/2/ls-desktop.png">
+```
+Command: cd Desktop && mv whateva.txt /tmp && ls -i
+```
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/2/ls-tmp.png">
+```
+Command: cd /tmp && mv whateva.txt ~ && ls -i
+```
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/2/ls-root-2.png">
+```
+Command to filter: ls -i | grep whateva.txt
+```
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/2/ls-grep-command.png">
 
 #### 5)
 ```
-
+Command: diskutil list
 ```
+
+Screenshot:
+
+<img src="https://github.com/trixr4kdz/cmsi387/blob/master/images/2/storage-drives.png">
+
 
